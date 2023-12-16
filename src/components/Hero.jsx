@@ -30,7 +30,7 @@ export default function Hero() {
         </Grid>
         <Grid item xs={12} md={6} sx={{display: 'flex', alignItems:'center', justifyContent:'center'}}>
             <div className='flex items-center justify-center md:mr-8 lg:mr-14 xl:mr-0 sm:mt-10 sm:mb-20 md:mt-0 md:mb-0 py-10'>
-                <div className='bg-[#383B40] rounded-[50%] h-[300px] w-[300px] sm:h-[450px] sm:w-[450px] lg:h-[550px] lg:w-[550px] flex items-end justify-center overflow-hidden'>
+                <div className='bg-[#383B40] rounded-[50%] h-[300px] w-[300px] sm:h-[450px] sm:w-[450px] lg:h-[550px] lg:w-[550px] flex items-end justify-center overflow-hidden shadow- lgshadow-[#322264] border-[2px] border-[#6649be]'>
                     <img className='h-[280px] sm:h-[400px] lg:h-[500px]' src={dp2} alt="Asindu De Silva" />
                 </div>
             </div>

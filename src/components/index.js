@@ -5,6 +5,7 @@ import Hero from './Hero';
 import Heading from './Heading';
 import Textfield from './Textfield';
 import MyBackdrop from './MyBackdrop';
+import Projects from './Projects';
 
 export{
     Navbar,
@@ -14,4 +15,5 @@ export{
     Heading,
     Textfield,
     MyBackdrop,
+    Projects,
 }

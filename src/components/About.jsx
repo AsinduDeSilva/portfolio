@@ -51,7 +51,7 @@ const About = () => {
         <div className='mt-10 mb-5 flex justify-center gap-x-12 gap-y-8 flex-wrap'>
 
             {skills.map((icon) => (
-                <Tooltip key={icon.id} title={icon.name} className='w-[3.5rem] h-[3.5rem] md:w-[4rem] md:h-[4rem] hover:scale-105 transition' arrow>
+                <Tooltip enterTouchDelay={0} key={icon.id} title={icon.name} className='w-[3.5rem] h-[3.5rem] md:w-[4rem] md:h-[4rem] hover:scale-105 transition' arrow>
                     <img src={icon.icon} alt={icon.name} />
                 </Tooltip>
             ))}

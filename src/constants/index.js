@@ -1,4 +1,4 @@
-import { bootstrap, c, css, figma, html, java, js, mongodb, mui, mysql, node, postgresql, postman, react, reactrouter, redux, spring, tailwindcss, ts, vite } from "../assets";
+import { bootstrap, c, clothifyStore1, css, figma, html, java, js, mongodb, mui, mysql, node, postgresql, postman, react, reactrouter, realWeather, redux, spring, studentManagementSystem, tailwindcss, ts, vite } from "../assets";
 
 export const skillIcons = {
     frameworks: [
@@ -113,3 +113,43 @@ export const skillIcons = {
         },
     ]    
 }
+
+export const projects = [
+    {
+        id: 'Project1',
+        title: 'Clothify Store - E-Commerce Application',
+        image: clothifyStore1,
+        links: [
+            {
+                name: 'Frontend',
+                link: 'https://github.com/AsinduDeSilva/Clothify-Store-React'
+            },
+            {
+                name: 'Backend',
+                link: 'https://github.com/AsinduDeSilva/Clothify-Store-Backend'
+            },
+        ]
+    },
+    {
+        id: 'Project2',
+        title: 'Real Weather - Real-Time Weather Application',
+        image: realWeather,
+        links: [
+            {
+                name: 'Visit',
+                link: 'https://asindudesilva.github.io/RealWeather/'
+            },
+        ]
+    },
+    {
+        id: 'Project3',
+        title: 'Student Management System',
+        image: studentManagementSystem,
+        links: [
+            {
+                name: 'Project Repo',
+                link: 'https://github.com/AsinduDeSilva/StudentManagementSystem/'
+            }
+        ]
+    },
+]

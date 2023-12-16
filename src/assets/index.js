@@ -19,6 +19,10 @@ import c from './c.svg';
 import node from './node.svg';
 import vite from './vite.svg';
 import ts from './ts.svg';
+import clothifyStore1 from './clothify-Store-1.png';
+import clothifyStore2 from './clothify-Store-2.png';
+import realWeather from './real-weather.png';
+import studentManagementSystem from './student-management-system.png';
 
 
 export{
@@ -43,4 +47,8 @@ export{
     node,
     vite,
     ts,
+    clothifyStore1,
+    clothifyStore2,
+    realWeather,
+    studentManagementSystem,
 }

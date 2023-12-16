@@ -15,3 +15,24 @@ body {
   padding: 0;
 }
 
+.project .project-layer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(100%);
+  transition: .5s ease;
+}
+
+.project>img{
+  transition: .5s ease;
+}
+
+.project:hover img{
+  transform: scale(1.1);
+}  
+
+.project:hover .project-layer{
+  transform: translateY(0);
+} 
+
+
