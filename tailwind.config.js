@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     screens: {
-      'xs': '300px',
+      'xs': '450px',
       'sm': '600px',
       'md': '900px',
       'lg': '1200px',

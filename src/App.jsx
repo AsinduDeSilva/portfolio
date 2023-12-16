@@ -1,6 +1,6 @@
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Hero from "./components/Hero"
-import Navbar from "./components/Navbar"
+import { About, Hero, Navbar } from './components';
+
 
 function App() {
 
@@ -19,6 +19,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Navbar/>
       <Hero/>
+      <About/>
     </ThemeProvider>
   )
 }
