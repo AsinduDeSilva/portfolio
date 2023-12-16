@@ -1,5 +1,5 @@
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { About, Hero, Navbar } from './components';
+import { About, Contact, Hero, Navbar } from './components';
 
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <About/>
+      <Contact/>
     </ThemeProvider>
   )
 }

@@ -35,7 +35,6 @@ const About = () => {
             <Tabs 
                 value={activeTab} 
                 onChange={(e, newTab) => setActiveTab(newTab)} 
-                centered 
                 variant="scrollable"
                 scrollButtons="auto"
                 className='bg-[#1D1F23] rounded-lg text-[#fff] px-1.5'
