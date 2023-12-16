@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Textfield = ({title, placeholder, value, setValue}) => {
+const Textfield = ({title, placeholder, value, setValue, error}) => {
   return (
     <div className={`mx-4 md:mx-24 lg:mx-32 pt-7`}>
         <label htmlFor="name" className="block font-semibold leading-6 text-white">
@@ -16,6 +16,9 @@ const Textfield = ({title, placeholder, value, setValue}) => {
                 onChange={e=> setValue(e.target.value)}
             />    
         </div>
+        {error ? (
+          <p className='text-red-700 text-[13px] ml-7 mt-2'>Enter a valid {title.toLowerCase()}</p>
+        ) :null}
     </div>
   )
 }
