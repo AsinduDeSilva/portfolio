@@ -1,4 +1,32 @@
-import { bootstrap, c, clothifyStore1, css, figma, html, java, js, mongodb, mui, mysql, node, postgresql, postman, react, reactrouter, realWeather, redux, spring, studentManagementSystem, tailwindcss, ts, vite } from "../assets";
+import { bootstrap, c, clothifyStore1, css, fb, figma, git, github, html, instagram, java, js, linkedin, mongodb, mui, mysql, node, postgresql, postman, react, reactrouter, realWeather, redux, spring, stackoverflow, studentManagementSystem, tailwindcss, ts, vite } from "../assets";
+
+export const socialMedia = [
+    {
+        name: 'github',
+        icon: github,
+        url: 'https://github.com/AsinduDeSilva',
+    },
+    {
+        name: 'linkedin',
+        icon: linkedin,
+        url: 'https://www.linkedin.com/in/asindu-de-silva',
+    },
+    {
+        name: 'stackoverflow',
+        icon: stackoverflow,
+        url: 'https://stackoverflow.com/users/21852219/asindu-de-silva',
+    },
+    {
+        name: 'instagram',
+        icon: instagram,
+        url: 'https://www.instagram.com/asindu_de_silva',
+    },
+    {
+        name: 'facebook',
+        icon: fb,
+        url: 'https://fb.com/asindu.desilva.7',
+    },
+]
 
 export const skillIcons = {
     frameworks: [
@@ -103,13 +131,18 @@ export const skillIcons = {
     tools: [
         {
             id: 'skillIcon19',
-            name: 'Figma',
-            icon: figma,
+            name: 'Git',
+            icon: git,
         },
         {
             id: 'skillIcon20',
             name: 'Postman',
             icon: postman,
+        },
+        {
+            id: 'skillIcon21',
+            name: 'Figma',
+            icon: figma,
         },
     ]    
 }
@@ -121,12 +154,14 @@ export const projects = [
         image: clothifyStore1,
         links: [
             {
+                id: 'link1',
                 name: 'Frontend',
-                link: 'https://github.com/AsinduDeSilva/Clothify-Store-React'
+                url: 'https://github.com/AsinduDeSilva/Clothify-Store-React'
             },
             {
+                id: 'link2',
                 name: 'Backend',
-                link: 'https://github.com/AsinduDeSilva/Clothify-Store-Backend'
+                url: 'https://github.com/AsinduDeSilva/Clothify-Store-Backend'
             },
         ]
     },
@@ -136,8 +171,9 @@ export const projects = [
         image: realWeather,
         links: [
             {
+                id: 'link3',
                 name: 'Visit',
-                link: 'https://asindudesilva.github.io/RealWeather/'
+                url: 'https://asindudesilva.github.io/RealWeather/'
             },
         ]
     },
@@ -147,8 +183,9 @@ export const projects = [
         image: studentManagementSystem,
         links: [
             {
+                id: 'link4',
                 name: 'Project Repo',
-                link: 'https://github.com/AsinduDeSilva/StudentManagementSystem/'
+                url: 'https://github.com/AsinduDeSilva/StudentManagementSystem/'
             }
         ]
     },

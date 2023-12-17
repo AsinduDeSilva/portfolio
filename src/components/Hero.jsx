@@ -1,7 +1,7 @@
 import React from 'react'
-import { Facebook, GitHub, Instagram, LinkedIn } from '@mui/icons-material';
 import { Button, Grid } from '@mui/material';
 import { dp2 } from '../assets';
+import { socialMedia } from '../constants';
 
 export default function Hero() {
   return (
@@ -17,11 +17,12 @@ export default function Hero() {
                         Welcome to my portfolio! I'm skilled in creating responsive front-end <br className='hidden sm:block'/>
                         interfaces and robust back-end solutions.
                     </p>
-                    <div className='space-x-2 my-5'>
-                        <a href="https://github.com/AsinduDeSilva" target='_blank'><GitHub sx={{cursor: 'pointer', }}/></a>
-                        <a href="https://www.linkedin.com/in/asindu-de-silva" target='_blank'><LinkedIn style={{cursor: 'pointer', color: '#2D64BC'}}/></a>
-                        <a href="https://www.instagram.com/asindu_de_silva" target='_blank'><Instagram style={{cursor: 'pointer', color: '#AA3CA9'}}/></a>
-                        <a href="https://fb.com/asindu.desilva.7" target='_blank'><Facebook style={{cursor: 'pointer', color: '#2A5FE9'}}/></a>
+                    <div className='space-x-3 my-5 flex'>
+                        {socialMedia.map(socialMedia => (
+                            <a key={socialMedia.name} href={socialMedia.url} target='_blank'>
+                                <img className='h-6 w-6' src={socialMedia.icon} alt={socialMedia.name} />
+                            </a>    
+                        ))}
                     </div>
                     <Button sx={{width: '120px'}} variant='contained' color='secondary' onClick={e => document.getElementById("Contact").scrollIntoView()} >Hire Me</Button>
 

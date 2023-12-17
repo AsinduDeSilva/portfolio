@@ -18,7 +18,7 @@ const Projects = () => {
                             <h2 className='text-lg font-semibold h-[40%] flex text-center justify-center items-center'>{project.title}</h2>
                             <div className='flex flex-col items-center justify-center gap-6 h-[60%] -mt-5'>
                                 {project.links.map(link => (
-                                    <Button sx={{minWidth: '120px'}} variant='contained' color='secondary' href={link.link} target='_blank'>{link.name}</Button>
+                                    <Button key={link.id} sx={{minWidth: '120px'}} variant='contained' color='secondary' href={link.url} target='_blank'>{link.name}</Button>
                                 ))}  
                             </div>
                         </div>

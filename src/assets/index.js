@@ -23,6 +23,12 @@ import clothifyStore1 from './clothify-Store-1.png';
 import clothifyStore2 from './clothify-Store-2.png';
 import realWeather from './real-weather.png';
 import studentManagementSystem from './student-management-system.png';
+import github from './github.svg';
+import linkedin from './linkedin.svg';
+import stackoverflow from './stackoverflow.svg';
+import instagram from './instagram.svg';
+import fb from './fb.svg';
+import git from './git.svg';
 
 
 export{
@@ -51,4 +57,10 @@ export{
     clothifyStore2,
     realWeather,
     studentManagementSystem,
+    github,
+    linkedin,
+    stackoverflow,
+    instagram,
+    fb,
+    git
 }
