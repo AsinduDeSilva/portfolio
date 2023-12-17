@@ -6,6 +6,7 @@ import Heading from './Heading';
 import Textfield from './Textfield';
 import MyBackdrop from './MyBackdrop';
 import Projects from './Projects';
+import Education from './Education';
 
 export{
     Navbar,
@@ -16,4 +17,5 @@ export{
     Textfield,
     MyBackdrop,
     Projects,
+    Education
 }

@@ -19,7 +19,7 @@ const About = () => {
   }, [activeTab]);
 
   return (
-    <div id='About' className='bg-[#252729] px-5 sm:px-24  md:px-28  lg:px-44 min-h-[50vh] pb-10'>
+    <div id='About' className='bg-[#2b2d30] px-5 sm:px-24  md:px-28  lg:px-44 min-h-[50vh] pb-10'>
         <Heading name="About Me"/>
         <div className='flex justify-center'>
             <p className='text-white text-md font-normal xl:w-[70%] mt-8 text-center'>

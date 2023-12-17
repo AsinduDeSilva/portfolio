@@ -190,3 +190,27 @@ export const projects = [
         ]
     },
 ]
+
+export const education = [
+    {
+        id:'',
+        name: 'B.Sc. Honours in Computer Science',
+        school: 'University of Kelaniya',
+        period: '2023 Sep - Present',
+        icon: '',
+    },
+    {
+        id:'',
+        name: 'iCET Certified Master',
+        school: 'Institute of Computer Engineering Technology',
+        period: '2023 Jan - 2023 Sep',
+        icon: '',
+    },
+    {
+        id:'',
+        name: 'G.C.E. Advanced Level',
+        school: 'Royal College Panadura',
+        period: '2018 - 2021',
+        icon: '',
+    },
+]
