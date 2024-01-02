@@ -29,6 +29,9 @@ import stackoverflow from './stackoverflow.svg';
 import instagram from './instagram.svg';
 import fb from './fb.svg';
 import git from './git.svg';
+import degree from './degree.svg';
+import book from './book.svg';
+import laptop from './laptop.svg';
 
 
 export{
@@ -62,5 +65,8 @@ export{
     stackoverflow,
     instagram,
     fb,
-    git
+    git,
+    degree,
+    book,
+    laptop
 }

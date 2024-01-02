@@ -8,11 +8,19 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import {education} from '../constants';
+import { motion } from 'framer-motion';
 
 
 const Education = () => {
   return (
-    <div id='Education' className='bg-[#2b2d30] px-5 sm:px-24  md:px-28  lg:px-44 min-h-[50vh] pb-10 text-white overflow-hidden'>
+    <motion.div 
+        id='Education' 
+        className='bg-[#2C2E30] px-5 sm:px-24  md:px-28  lg:px-44 min-h-[50vh] pb-10 text-white overflow-hidden'
+        initial={{opacity: 0, y: 200}}
+        transition={{type: 'spring', stiffness: 50}}
+        whileInView={{opacity:1, y:0}}
+        viewport={{once: true}}
+    >
         <Heading name={"Education"}/>
 
         <Timeline className='mt-10 -translate-x-7 xs:-translate-x-5 sm:-translate-x-3'>
@@ -49,7 +57,7 @@ const Education = () => {
             ))}    
 
         </Timeline>
-    </div>
+    </motion.div >
   )
 }
 

@@ -13,6 +13,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #191b1e;
 }
 
 .project .project-layer{
@@ -34,5 +35,3 @@ body {
 .project:hover .project-layer{
   transform: translateY(0);
 } 
-
-

@@ -3,6 +3,7 @@ import { Alert, Button, Snackbar } from '@mui/material';
 import Heading from './Heading';
 import MyBackdrop from './MyBackdrop';
 import Textfield from './Textfield';
+import { motion } from 'framer-motion';
 
 
 const Contact = () => {
@@ -71,7 +72,14 @@ const Contact = () => {
     
   }
   return (
-    <div id='Contact' className='bg-[#1D1F23] min-h-[40rem] pb-14'>
+    <motion.div 
+        id='Contact' 
+        className='bg-[#191b1e] min-h-[40rem] pb-14'
+        initial={{opacity: 0, y: 200}}
+        transition={{type: 'spring', stiffness: 50}}
+        whileInView={{opacity:1, y:0}}
+        viewport={{once: true}}
+    >
         <Heading name={"Contact Me"}/>
         <div className='min-h-[32rem] mt-10 mx-4 md:mx-24 lg:mx-32 xl:mx-48 bg-[#2C2E30] rounded-2xl'>
             <Textfield title={'Name'} placeholder={'Enter your name'} value={name} setValue={setName} error={txtNameError}/>
@@ -109,7 +117,7 @@ const Contact = () => {
                 {snackbar.message}
             </Alert>
         </Snackbar>
-    </div>
+    </motion.div>
   )
 }
 

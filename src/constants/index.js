@@ -1,4 +1,4 @@
-import { bootstrap, c, clothifyStore1, css, fb, figma, git, github, html, instagram, java, js, linkedin, mongodb, mui, mysql, node, postgresql, postman, react, reactrouter, realWeather, redux, spring, stackoverflow, studentManagementSystem, tailwindcss, ts, vite } from "../assets";
+import { book, bootstrap, c, clothifyStore1, css, degree, fb, figma, git, github, html, instagram, java, js, laptop, linkedin, mongodb, mui, mysql, node, postgresql, postman, react, reactrouter, realWeather, redux, spring, stackoverflow, studentManagementSystem, tailwindcss, ts, vite } from "../assets";
 
 export const socialMedia = [
     {
@@ -193,24 +193,28 @@ export const projects = [
 
 export const education = [
     {
-        id:'',
+        id:'edu1',
         name: 'B.Sc. Honours in Computer Science',
         school: 'University of Kelaniya',
         period: '2023 Sep - Present',
-        icon: '',
+        icon: degree,
     },
     {
-        id:'',
+        id:'edu2',
         name: 'iCET Certified Master',
         school: 'Institute of Computer Engineering Technology',
         period: '2023 Jan - 2023 Sep',
-        icon: '',
+        icon: laptop,
     },
     {
-        id:'',
+        id:'edu3',
         name: 'G.C.E. Advanced Level',
         school: 'Royal College Panadura',
         period: '2018 - 2021',
-        icon: '',
+        icon: book,
     },
 ]
+
+export const animationVarients = {
+    scroll: {}
+}

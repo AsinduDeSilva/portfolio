@@ -2,7 +2,7 @@ import { Disclosure} from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
+  { name: 'Home', href: '#', current: false },
   { name: 'About', href: '#About', current: false },
   { name: 'Projects', href: '#Projects', current: false },
   { name: 'Contact', href: '#Contact', current: false },
@@ -14,7 +14,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-[#1D1F23] sticky top-0 z-10">
+    <Disclosure as="nav" className='bg-[#1D1F23] sticky top-0 z-10'>
       {({ open }) => (
         <>
           <div className="mx-auto px-2 sm:px-6 lg:px-12">
