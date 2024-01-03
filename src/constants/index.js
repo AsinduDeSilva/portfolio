@@ -214,7 +214,3 @@ export const education = [
         icon: book,
     },
 ]
-
-export const animationVarients = {
-    scroll: {}
-}
